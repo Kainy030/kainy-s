@@ -3,13 +3,13 @@
 	"id": "kainys-weapons-extra",
 	"version": "${version}",
 	"name": "Kainy's Weapons Extra",
-	"description": "本mod使用大量Mixin注入，如果mod冲突大概率是本mod导致",
+	"description": "暂时是想到什么更新什么。",
 	"authors": [
 		"Kainy"
 	],
 	"contact": {
 		"homepage": "本MOD为内测版本暂无官方网站",
-		"sources": "本MOD为内测版本暂不支持在Github上公开源码"
+		"sources": "https://github.com/Kainy030/kainy-s/"
 	},
 	"license": "MIT",
 	"icon": "assets/kainy/icon.png",
