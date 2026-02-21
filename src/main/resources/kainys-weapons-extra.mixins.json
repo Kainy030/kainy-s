@@ -1,0 +1,13 @@
+{
+	"required": true,
+	"package": "com.kainy.WeaponsExtra.mixin",
+	"compatibilityLevel": "JAVA_21",
+	"mixins": [
+		"PlayerEntityMixin",
+		"LivingEntityMixin",
+		"WitherEntityMixin"
+	],
+	"injectors": {
+		"defaultRequire": 1
+	}
+}
