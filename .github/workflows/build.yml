@@ -9,7 +9,7 @@ jobs:
   build:
     strategy:
       matrix:
-        java: [21]  # 你可以根据需要修改 Java 版本，这里设置的是 Java 21
+        java: [25]  # 你可以根据需要修改 Java 版本，这里设置的是 Java 21
     runs-on: ubuntu-22.04
 
     steps:
