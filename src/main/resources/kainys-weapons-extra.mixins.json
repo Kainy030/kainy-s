@@ -3,8 +3,8 @@
 	"package": "com.kainy.WeaponsExtra.mixin",
 	"compatibilityLevel": "JAVA_21",
 	"mixins": [
-		"PlayerEntityMixin",
 		"LivingEntityMixin",
+		"PlayerEntityMixin",
 		"WitherEntityMixin"
 	],
 	"injectors": {

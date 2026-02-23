@@ -9,8 +9,12 @@ import net.minecraft.registry.tag.TagKey;
 import java.util.function.Supplier;
 
 public enum Kainys_Tool_Material implements ToolMaterial {
-    ingot1(BlockTags.INCORRECT_FOR_NETHERITE_TOOL, 5000, 10.0F, 10.0F, 30,() ->
-            Ingredient.ofItems(Kainys_Items.ingot1));
+    ingot1(BlockTags.INCORRECT_FOR_NETHERITE_TOOL,
+            Integer.MAX_VALUE,                   // 正无穷耐久
+            Float.POSITIVE_INFINITY,             // 正无穷挖掘速度
+            Float.POSITIVE_INFINITY,             // 正无穷攻击伤害
+            Integer.MAX_VALUE,                   // 正无穷附魔次数（不昂贵）
+            () -> Ingredient.ofItems(Kainys_Items.ingot1));
 
     private final TagKey<Block> inverseTag;
     private final int itemDurability;

@@ -29,9 +29,9 @@ public class Kainys_Items {
             ));
     public static void addKainysItemsToKainys_Item_Group(FabricItemGroupEntries fabricItemGroupEntries){
         //将ingot1添加至Fabric物品栏
-       fabricItemGroupEntries.add(ingot1);
+        fabricItemGroupEntries.add(ingot1);
         //将ingot2添加至Fabric物品栏
-       fabricItemGroupEntries.add(ingot2);
+        fabricItemGroupEntries.add(ingot2);
         //将ingot3添加至Fabric物品栏
         fabricItemGroupEntries.add(ingot3);
         //将finally_sword添加至Fabric物品栏
